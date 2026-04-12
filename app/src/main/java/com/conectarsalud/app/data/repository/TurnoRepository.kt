@@ -4,7 +4,6 @@ import android.util.Log
 import com.conectarsalud.app.data.model.Turno
 import com.google.firebase.Timestamp
 import com.google.firebase.firestore.FirebaseFirestore
-import com.google.firebase.firestore.Query
 import kotlinx.coroutines.channels.awaitClose
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.callbackFlow
@@ -27,15 +26,15 @@ class TurnoRepository {
     fun getMisTurnos(userId: String): Flow<List<Turno>> = callbackFlow {
         val listener = firestore.collection("turnos")
             .whereEqualTo("userId", userId)
-            .orderBy("creadoEn", Query.Direction.DESCENDING)
             .addSnapshotListener { snapshot, error ->
                 if (error != null) {
-                    close(error)
+                    Log.e(TAG, "Error en listener de turnos: ${error.message}")
+                    trySend(emptyList())
                     return@addSnapshotListener
                 }
                 val turnos = snapshot?.documents?.mapNotNull { doc ->
                     doc.toObject(Turno::class.java)?.copy(id = doc.id)
-                } ?: emptyList()
+                }?.sortedByDescending { it.creadoEn?.seconds ?: 0L } ?: emptyList()
                 trySend(turnos)
             }
         awaitClose { listener.remove() }
@@ -55,17 +54,18 @@ class TurnoRepository {
 
     suspend fun getProximoTurno(userId: String): Turno? {
         return try {
-            // Solo filtramos por userId para evitar requerir índice compuesto en Firestore
-            // El filtro de estado "pendiente" lo hacemos en memoria
+            // Query simple con un solo whereEqualTo — no requiere índice compuesto
+            // El ordenamiento y filtro de estado los hacemos en memoria
             val snapshot = firestore.collection("turnos")
                 .whereEqualTo("userId", userId)
-                .orderBy("creadoEn", Query.Direction.DESCENDING)
                 .get()
                 .await()
             Log.d(TAG, "Turnos encontrados para userId=$userId: ${snapshot.size()}")
-            snapshot.documents.mapNotNull { doc ->
-                doc.toObject(Turno::class.java)?.copy(id = doc.id)
-            }.firstOrNull { it.estado == "pendiente" }
+            snapshot.documents
+                .mapNotNull { doc -> doc.toObject(Turno::class.java)?.copy(id = doc.id) }
+                .filter { it.estado == "pendiente" }
+                .sortedByDescending { it.creadoEn?.seconds ?: 0L }
+                .firstOrNull()
         } catch (e: Exception) {
             Log.e(TAG, "Error obteniendo próximo turno: ${e.message}", e)
             null
