@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ConectarSalud</string>
+
+    <!-- Auth - Login -->
+    <string name="welcome">Bienvenido</string>
+    <string name="sign_in_account">Inicia sesión en tu cuenta</string>
+    <string name="email_or_dni">DNI o correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="sign_in">Iniciar sesión</string>
+    <string name="no_account">¿No tienes una cuenta?</string>
+    <string name="register">Regístrate</string>
+    <string name="sign_in_google">Continuar con Google</string>
+    <string name="or">— o —</string>
+
+    <!-- Auth - Register -->
+    <string name="create_account">Crear cuenta</string>
+    <string name="name_hint">Nombre</string>
+    <string name="last_name_hint">Apellido</string>
+    <string name="dni_hint">DNI</string>
+    <string name="email_hint">Correo electrónico</string>
+    <string name="password_hint">Contraseña (mín. 6 caracteres)</string>
+    <string name="confirm_password_hint">Confirmar contraseña</string>
+    <string name="already_account">¿Ya tienes una cuenta?</string>
+    <string name="sign_in_link">Inicia sesión</string>
+
+    <!-- Home -->
+    <string name="greeting">Hola, %s 👋</string>
+    <string name="what_need">¿Qué necesitas hacer hoy?</string>
+    <string name="next_appointment">Tu próximo turno</string>
+    <string name="no_upcoming">Sin turnos próximos</string>
+    <string name="view_details">Ver detalles</string>
+    <string name="book_new">+ Reservar nuevo turno</string>
+    <string name="quick_access">Accesos rápidos</string>
+    <string name="news">Novedades</string>
+    <string name="see_more">Ver más</string>
+    <string name="logout">Cerrar sesión</string>
+
+    <!-- Quick Access Labels -->
+    <string name="qa_nearby">Centros cercanos</string>
+    <string name="qa_history">Historial</string>
+    <string name="qa_my_appointments">Mis Turnos</string>
+    <string name="qa_favorites">Favoritos</string>
+
+    <!-- Specialties -->
+    <string name="select_specialty">Seleccione la especialidad</string>
+    <string name="pediatria">Pediatría</string>
+    <string name="odontologia">Odontología</string>
+    <string name="medico_clinico">Médico Clínico</string>
+    <string name="ginecologia">Ginecología</string>
+    <string name="cardiologia">Cardiología</string>
+    <string name="dermatologia">Dermatología</string>
+    <string name="traumatologia">Traumatología</string>
+    <string name="neurologia">Neurología</string>
+
+    <!-- Date/Time -->
+    <string name="select_date_time">Seleccione Fecha y hora</string>
+    <string name="available_time">Horarios disponibles</string>
+    <string name="book">Reservar</string>
+    <string name="select_date_first">Selecciona primero una fecha</string>
+
+    <!-- Confirmation -->
+    <string name="appointment_confirmed">Confirmación de cita</string>
+    <string name="appointment_booked">¡Cita reservada!</string>
+    <string name="appointment_booked_msg">Su cita se ha reservado correctamente</string>
+    <string name="tolerance_msg">Tienes 10 minutos de tolerancia</string>
+    <string name="go_home">Volver al inicio</string>
+    <string name="clinica_label">Clínica:</string>
+    <string name="fecha_label">Fecha:</string>
+    <string name="hora_label">Hora:</string>
+
+    <!-- My Appointments -->
+    <string name="my_appointments">Mis Turnos</string>
+    <string name="no_appointments">No tienes turnos reservados</string>
+    <string name="book_first">¡Reserva tu primer turno!</string>
+    <string name="status_pending">Pendiente</string>
+    <string name="status_confirmed">Confirmado</string>
+    <string name="status_cancelled">Cancelado</string>
+    <string name="cancel_turno">Cancelar</string>
+    <string name="cancel_confirm_title">Cancelar turno</string>
+    <string name="cancel_confirm_msg">¿Estás seguro que deseas cancelar este turno?</string>
+    <string name="yes_cancel">Sí, cancelar</string>
+    <string name="no_back">No, volver</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Inicio</string>
+    <string name="nav_search">Buscar</string>
+    <string name="nav_appointments">Turnos</string>
+    <string name="nav_profile">Perfil</string>
+
+    <!-- Errors -->
+    <string name="error_empty_fields">Por favor completa todos los campos</string>
+    <string name="error_invalid_email">Correo electrónico inválido</string>
+    <string name="error_password_short">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="error_passwords_no_match">Las contraseñas no coinciden</string>
+    <string name="error_select_date">Por favor selecciona una fecha</string>
+    <string name="error_select_time">Por favor selecciona un horario</string>
+    <string name="error_generic">Ocurrió un error. Intenta nuevamente</string>
+    <string name="error_login">Usuario o contraseña incorrectos</string>
+    <string name="booking_success">¡Turno reservado exitosamente!</string>
+</resources>

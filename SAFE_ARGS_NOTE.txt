@@ -1,0 +1,15 @@
+# ConectarSalud — Safe Args generate clases de navegación
+# Este archivo NO requiere contenido manual.
+# Safe Args es generado automáticamente por el plugin de Navigation.
+# Asegúrate de tener en app/build.gradle.kts:
+#
+#   plugins {
+#       id("androidx.navigation.safeargs.kotlin")
+#   }
+#
+# Y en libs.versions.toml:
+#   navigation = "2.7.7"
+#   [plugins]
+#   navigation-safeargs = { id = "androidx.navigation.safeargs.kotlin", version.ref = "navigation" }
+#
+# Luego usa: Build > Make Project en Android Studio para generar los Args/Directions.

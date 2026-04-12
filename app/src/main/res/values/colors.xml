@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary purple palette -->
+    <color name="purple_primary">#7857FF</color>
+    <color name="purple_dark">#5E3DD6</color>
+    <color name="purple_medium">#9070FF</color>
+    <color name="purple_light">#A98BFF</color>
+    <color name="purple_lighter">#D4C8FF</color>
+    <color name="purple_surface">#F5F0FF</color>
+    <color name="purple_gradient_start">#7857FF</color>
+    <color name="purple_gradient_end">#B39DDB</color>
+
+    <!-- Neutral -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="text_primary">#1A1A2E</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_hint">#9CA3AF</color>
+    <color name="divider">#E5E7EB</color>
+    <color name="background_light">#F5F0FF</color>
+    <color name="card_background">#FFFFFF</color>
+
+    <!-- Semantic -->
+    <color name="error">#EF4444</color>
+    <color name="success">#10B981</color>
+    <color name="warning">#F59E0B</color>
+
+    <!-- Transparent -->
+    <color name="transparent">#00000000</color>
+    <color name="white_20">#33FFFFFF</color>
+    <color name="white_40">#66FFFFFF</color>
+    <color name="white_60">#99FFFFFF</color>
+    <color name="white_80">#CCFFFFFF</color>
+
+    <!-- Material roles -->
+    <color name="colorPrimary">#7857FF</color>
+    <color name="colorPrimaryDark">#5E3DD6</color>
+    <color name="colorAccent">#A98BFF</color>
+</resources>
