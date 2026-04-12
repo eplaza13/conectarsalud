@@ -1,36 +1,26 @@
 {
   "project_info": {
-    "project_number": "000000000000",
-    "project_id": "REPLACE-WITH-YOUR-FIREBASE-PROJECT-ID",
-    "storage_bucket": "REPLACE-WITH-YOUR-FIREBASE-PROJECT-ID.appspot.com"
+    "project_number": "827834896815",
+    "project_id": "conectarsalud-d0163",
+    "storage_bucket": "conectarsalud-d0163.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:000000000000:android:0000000000000000",
+        "mobilesdk_app_id": "1:827834896815:android:95ae7b712d1a66d14c5f5a",
         "android_client_info": {
-          "package_name": "com.conectasalud.app"
+          "package_name": "com.conectarsalud.app"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "000000000000-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "REPLACE_WITH_YOUR_FIREBASE_API_KEY"
+          "current_key": "AIzaSyDMAx_6OwjCxO58VtgIStGFMzcOXHHIzX0"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "000000000000-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }
