@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.conectarsalud.app.ui.auth.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_login_to_register"
+            app:destination="@id/registerFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left" />
+        <action
+            android:id="@+id/action_login_to_home"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.conectarsalud.app.ui.auth.RegisterFragment"
+        android:label="Register"
+        tools:layout="@layout/fragment_register">
+        <action
+            android:id="@+id/action_register_to_home"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out" />
+        <action
+            android:id="@+id/action_register_to_login"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.conectarsalud.app.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_especialidad"
+            app:destination="@id/especialidadFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/especialidadFragment"
+        android:name="com.conectarsalud.app.ui.turnos.EspecialidadFragment"
+        android:label="Especialidad"
+        tools:layout="@layout/fragment_especialidad">
+        <action
+            android:id="@+id/action_especialidad_to_fechaHora"
+            app:destination="@id/fechaHoraFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left" />
+        <argument
+            android:name="especialidad"
+            app:argType="string"
+            android:defaultValue="" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fechaHoraFragment"
+        android:name="com.conectarsalud.app.ui.turnos.FechaHoraFragment"
+        android:label="FechaHora"
+        tools:layout="@layout/fragment_fecha_hora">
+        <action
+            android:id="@+id/action_fechaHora_to_confirmacion"
+            app:destination="@id/confirmacionFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left" />
+        <argument
+            android:name="especialidad"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/confirmacionFragment"
+        android:name="com.conectarsalud.app.ui.turnos.ConfirmacionFragment"
+        android:label="Confirmacion"
+        tools:layout="@layout/fragment_confirmacion">
+        <action
+            android:id="@+id/action_confirmacion_to_home"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out" />
+        <argument
+            android:name="especialidad"
+            app:argType="string" />
+        <argument
+            android:name="clinica"
+            app:argType="string" />
+        <argument
+            android:name="fecha"
+            app:argType="string" />
+        <argument
+            android:name="hora"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/misTurnosFragment"
+        android:name="com.conectarsalud.app.ui.turnos.MisTurnosFragment"
+        android:label="MisTurnos"
+        tools:layout="@layout/fragment_mis_turnos" />
+
+</navigation>

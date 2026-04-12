@@ -12,7 +12,12 @@
           "package_name": "com.conectarsalud.app"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "827834896815-9m8i86ha31h9c6bmhjbrc0jp81pa6gg3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyDMAx_6OwjCxO58VtgIStGFMzcOXHHIzX0"
@@ -20,7 +25,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "827834896815-9m8i86ha31h9c6bmhjbrc0jp81pa6gg3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

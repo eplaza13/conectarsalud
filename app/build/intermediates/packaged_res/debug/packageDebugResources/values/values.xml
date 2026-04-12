@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_light">#F5F0FF</color>
+    <color name="black">#000000</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="colorAccent">#A98BFF</color>
+    <color name="colorPrimary">#7857FF</color>
+    <color name="colorPrimaryDark">#5E3DD6</color>
+    <color name="divider">#E5E7EB</color>
+    <color name="error">#EF4444</color>
+    <color name="purple_dark">#5E3DD6</color>
+    <color name="purple_gradient_end">#B39DDB</color>
+    <color name="purple_gradient_start">#7857FF</color>
+    <color name="purple_light">#A98BFF</color>
+    <color name="purple_lighter">#D4C8FF</color>
+    <color name="purple_medium">#9070FF</color>
+    <color name="purple_primary">#7857FF</color>
+    <color name="purple_surface">#F5F0FF</color>
+    <color name="success">#10B981</color>
+    <color name="text_hint">#9CA3AF</color>
+    <color name="text_primary">#1A1A2E</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="transparent">#00000000</color>
+    <color name="warning">#F59E0B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_20">#33FFFFFF</color>
+    <color name="white_40">#66FFFFFF</color>
+    <color name="white_60">#99FFFFFF</color>
+    <color name="white_80">#CCFFFFFF</color>
+    <dimen name="button_height">52dp</dimen>
+    <dimen name="button_radius">50dp</dimen>
+    <dimen name="card_radius">16dp</dimen>
+    <dimen name="icon_size">24dp</dimen>
+    <dimen name="icon_size_lg">32dp</dimen>
+    <dimen name="input_height">54dp</dimen>
+    <dimen name="input_radius">12dp</dimen>
+    <dimen name="logo_size">84dp</dimen>
+    <dimen name="quick_access_icon">48dp</dimen>
+    <dimen name="spacing_lg">24dp</dimen>
+    <dimen name="spacing_md">16dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_xxl">48dp</dimen>
+    <dimen name="specialty_item_height">58dp</dimen>
+    <dimen name="specialty_radius">50dp</dimen>
+    <dimen name="text_2xl">26sp</dimen>
+    <dimen name="text_3xl">32sp</dimen>
+    <dimen name="text_base">16sp</dimen>
+    <dimen name="text_lg">18sp</dimen>
+    <dimen name="text_md">14sp</dimen>
+    <dimen name="text_sm">12sp</dimen>
+    <dimen name="text_xl">22sp</dimen>
+    <string name="already_account">¿Ya tienes una cuenta?</string>
+    <string name="app_name">ConectarSalud</string>
+    <string name="appointment_booked">¡Cita reservada!</string>
+    <string name="appointment_booked_msg">Su cita se ha reservado correctamente</string>
+    <string name="appointment_confirmed">Confirmación de cita</string>
+    <string name="available_time">Horarios disponibles</string>
+    <string name="book">Reservar</string>
+    <string name="book_first">¡Reserva tu primer turno!</string>
+    <string name="book_new">+ Reservar nuevo turno</string>
+    <string name="booking_success">¡Turno reservado exitosamente!</string>
+    <string name="cancel_confirm_msg">¿Estás seguro que deseas cancelar este turno?</string>
+    <string name="cancel_confirm_title">Cancelar turno</string>
+    <string name="cancel_turno">Cancelar</string>
+    <string name="cardiologia">Cardiología</string>
+    <string name="clinica_label">Clínica:</string>
+    <string name="confirm_password_hint">Confirmar contraseña</string>
+    <string name="create_account">Crear cuenta</string>
+    <string name="default_web_client_id" translatable="false">827834896815-9m8i86ha31h9c6bmhjbrc0jp81pa6gg3.apps.googleusercontent.com</string>
+    <string name="dermatologia">Dermatología</string>
+    <string name="dni_hint">DNI</string>
+    <string name="email_hint">Correo electrónico</string>
+    <string name="email_or_dni">DNI o correo electrónico</string>
+    <string name="error_empty_fields">Por favor completa todos los campos</string>
+    <string name="error_generic">Ocurrió un error. Intenta nuevamente</string>
+    <string name="error_invalid_email">Correo electrónico inválido</string>
+    <string name="error_login">Usuario o contraseña incorrectos</string>
+    <string name="error_password_short">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="error_passwords_no_match">Las contraseñas no coinciden</string>
+    <string name="error_select_date">Por favor selecciona una fecha</string>
+    <string name="error_select_time">Por favor selecciona un horario</string>
+    <string name="fecha_label">Fecha:</string>
+    <string name="gcm_defaultSenderId" translatable="false">827834896815</string>
+    <string name="ginecologia">Ginecología</string>
+    <string name="go_home">Volver al inicio</string>
+    <string name="google_api_key" translatable="false">AIzaSyDMAx_6OwjCxO58VtgIStGFMzcOXHHIzX0</string>
+    <string name="google_app_id" translatable="false">1:827834896815:android:95ae7b712d1a66d14c5f5a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDMAx_6OwjCxO58VtgIStGFMzcOXHHIzX0</string>
+    <string name="google_storage_bucket" translatable="false">conectarsalud-d0163.firebasestorage.app</string>
+    <string name="greeting">Hola, %s 👋</string>
+    <string name="hora_label">Hora:</string>
+    <string name="last_name_hint">Apellido</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="medico_clinico">Médico Clínico</string>
+    <string name="my_appointments">Mis Turnos</string>
+    <string name="name_hint">Nombre</string>
+    <string name="nav_appointments">Turnos</string>
+    <string name="nav_home">Inicio</string>
+    <string name="nav_profile">Perfil</string>
+    <string name="nav_search">Buscar</string>
+    <string name="neurologia">Neurología</string>
+    <string name="news">Novedades</string>
+    <string name="next_appointment">Tu próximo turno</string>
+    <string name="no_account">¿No tienes una cuenta?</string>
+    <string name="no_appointments">No tienes turnos reservados</string>
+    <string name="no_back">No, volver</string>
+    <string name="no_upcoming">Sin turnos próximos</string>
+    <string name="odontologia">Odontología</string>
+    <string name="or">— o —</string>
+    <string name="password">Contraseña</string>
+    <string name="password_hint">Contraseña (mín. 6 caracteres)</string>
+    <string name="pediatria">Pediatría</string>
+    <string name="project_id" translatable="false">conectarsalud-d0163</string>
+    <string name="qa_favorites">Favoritos</string>
+    <string name="qa_history">Historial</string>
+    <string name="qa_my_appointments">Mis Turnos</string>
+    <string name="qa_nearby">Centros cercanos</string>
+    <string name="quick_access">Accesos rápidos</string>
+    <string name="register">Regístrate</string>
+    <string name="see_more">Ver más</string>
+    <string name="select_date_first">Selecciona primero una fecha</string>
+    <string name="select_date_time">Seleccione Fecha y hora</string>
+    <string name="select_specialty">Seleccione la especialidad</string>
+    <string name="sign_in">Iniciar sesión</string>
+    <string name="sign_in_account">Inicia sesión en tu cuenta</string>
+    <string name="sign_in_google">Continuar con Google</string>
+    <string name="sign_in_link">Inicia sesión</string>
+    <string name="status_cancelled">Cancelado</string>
+    <string name="status_confirmed">Confirmado</string>
+    <string name="status_pending">Pendiente</string>
+    <string name="tolerance_msg">Tienes 10 minutos de tolerancia</string>
+    <string name="traumatologia">Traumatología</string>
+    <string name="view_details">Ver detalles</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="what_need">¿Qué necesitas hacer hoy?</string>
+    <string name="yes_cancel">Sí, cancelar</string>
+    <style name="TextAppearance.ConectarSalud.Body" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="TextAppearance.ConectarSalud.H1" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+    <style name="TextAppearance.ConectarSalud.H2" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="Theme.ConectarSalud" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/purple_primary</item>
+        <item name="colorPrimaryVariant">@color/purple_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/purple_light</item>
+        <item name="colorSecondaryVariant">@color/purple_light</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        
+        <item name="android:colorBackground">@color/background_light</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="android:windowBackground">@color/background_light</item>
+        
+        <item name="colorError">@color/error</item>
+        
+        <item name="android:statusBarColor">@color/purple_dark</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        
+        <item name="android:fontFamily">sans-serif</item>
+        
+        <item name="rippleColor">@color/purple_lighter</item>
+    </style>
+    <style name="Theme.ConectarSalud.Auth" parent="Theme.ConectarSalud">
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="Widget.ConectarSalud.Button.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/bg_button_primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+        <item name="cornerRadius">50dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+</resources>

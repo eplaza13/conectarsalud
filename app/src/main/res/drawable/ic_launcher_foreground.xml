@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- White medical cross centered in the safe zone (72dp centered in 108dp) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M61,27 L47,27 L47,47 L27,47 L27,61 L47,61 L47,81 L61,81 L61,61 L81,61 L81,47 L61,47 Z" />
+</vector>

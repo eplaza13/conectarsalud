@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.conectasalud.app"
+    namespace = "com.conectarsalud.app"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.conectasalud.app"
+        applicationId = "com.conectarsalud.app"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -29,11 +29,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = "17"
     }
     buildFeatures {
         viewBinding = true
@@ -52,9 +52,16 @@ dependencies {
     implementation(libs.lifecycle.runtime.ktx)
     implementation(libs.coroutines.android)
     implementation(libs.coroutines.play.services)
-    implementation(platform(libs.firebase.bom))
-    implementation(libs.firebase.auth.ktx)
-    implementation(libs.firebase.firestore.ktx)
-    implementation(libs.play.services.auth)
-    implementation(libs.glide)
+
+    // Firebase — versiones gestionadas por BOM
+    implementation(platform("com.google.firebase:firebase-bom:34.12.0"))
+    implementation("com.google.firebase:firebase-auth")
+    implementation("com.google.firebase:firebase-firestore")
+    implementation("com.google.firebase:firebase-analytics")
+
+    // Google Sign-In
+    implementation("com.google.android.gms:play-services-auth:21.0.0")
+
+    // Glide
+    implementation("com.github.bumptech.glide:glide:4.16.0")
 }

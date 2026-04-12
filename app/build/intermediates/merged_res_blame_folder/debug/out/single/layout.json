@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "com.conectarsalud.app-mergeDebugResources-63:/layout/fragment_register.xml",
+        "source": "com.conectarsalud.app-main-66:/layout/fragment_register.xml"
+    },
+    {
+        "merged": "com.conectarsalud.app-mergeDebugResources-63:/layout/activity_main.xml",
+        "source": "com.conectarsalud.app-main-66:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.conectarsalud.app-mergeDebugResources-63:/layout/item_turno.xml",
+        "source": "com.conectarsalud.app-main-66:/layout/item_turno.xml"
+    },
+    {
+        "merged": "com.conectarsalud.app-mergeDebugResources-63:/layout/fragment_mis_turnos.xml",
+        "source": "com.conectarsalud.app-main-66:/layout/fragment_mis_turnos.xml"
+    },
+    {
+        "merged": "com.conectarsalud.app-mergeDebugResources-63:/layout/fragment_fecha_hora.xml",
+        "source": "com.conectarsalud.app-main-66:/layout/fragment_fecha_hora.xml"
+    },
+    {
+        "merged": "com.conectarsalud.app-mergeDebugResources-63:/layout/fragment_especialidad.xml",
+        "source": "com.conectarsalud.app-main-66:/layout/fragment_especialidad.xml"
+    },
+    {
+        "merged": "com.conectarsalud.app-mergeDebugResources-63:/layout/fragment_home.xml",
+        "source": "com.conectarsalud.app-main-66:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.conectarsalud.app-mergeDebugResources-63:/layout/fragment_login.xml",
+        "source": "com.conectarsalud.app-main-66:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "com.conectarsalud.app-mergeDebugResources-63:/layout/item_especialidad.xml",
+        "source": "com.conectarsalud.app-main-66:/layout/item_especialidad.xml"
+    },
+    {
+        "merged": "com.conectarsalud.app-mergeDebugResources-63:/layout/fragment_confirmacion.xml",
+        "source": "com.conectarsalud.app-main-66:/layout/fragment_confirmacion.xml"
+    }
+]

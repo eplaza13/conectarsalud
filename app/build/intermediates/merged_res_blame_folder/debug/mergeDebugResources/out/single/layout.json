@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.9\\com.conectarsalud.app-mergeDebugResources-63:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.9\\com.conectarsalud.app-main-66:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.9\\com.conectarsalud.app-mergeDebugResources-63:\\layout\\fragment_register.xml",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.9\\com.conectarsalud.app-main-66:\\layout\\fragment_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.9\\com.conectarsalud.app-mergeDebugResources-63:\\layout\\fragment_confirmacion.xml",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.9\\com.conectarsalud.app-main-66:\\layout\\fragment_confirmacion.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.9\\com.conectarsalud.app-mergeDebugResources-63:\\layout\\fragment_login.xml",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.9\\com.conectarsalud.app-main-66:\\layout\\fragment_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.9\\com.conectarsalud.app-mergeDebugResources-63:\\layout\\fragment_especialidad.xml",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.9\\com.conectarsalud.app-main-66:\\layout\\fragment_especialidad.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.9\\com.conectarsalud.app-mergeDebugResources-63:\\layout\\fragment_mis_turnos.xml",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.9\\com.conectarsalud.app-main-66:\\layout\\fragment_mis_turnos.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.9\\com.conectarsalud.app-mergeDebugResources-63:\\layout\\fragment_fecha_hora.xml",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.9\\com.conectarsalud.app-main-66:\\layout\\fragment_fecha_hora.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.9\\com.conectarsalud.app-mergeDebugResources-63:\\layout\\item_especialidad.xml",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.9\\com.conectarsalud.app-main-66:\\layout\\item_especialidad.xml"
+    },
+    {
+        "merged": "com.conectarsalud.app-mergeDebugResources-63:/layout/fragment_home.xml",
+        "source": "com.conectarsalud.app-main-66:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.9\\com.conectarsalud.app-mergeDebugResources-63:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.9\\com.conectarsalud.app-main-66:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.9\\com.conectarsalud.app-mergeDebugResources-63:\\layout\\item_turno.xml",
+        "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.9\\com.conectarsalud.app-main-66:\\layout\\item_turno.xml"
+    }
+]
