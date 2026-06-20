@@ -29,7 +29,7 @@ class LoginViewModel(private val userRepository: UserRepository) : ViewModel() {
             _authState.value = if (result.isSuccess) {
                 AuthState.Success
             } else {
-                AuthState.Error(result.exceptionOrNull()?.localizedMessage ?: "Error al iniciar sesión")
+                AuthState.Error("Usuario o contraseña incorrectos")
             }
         }
     }
