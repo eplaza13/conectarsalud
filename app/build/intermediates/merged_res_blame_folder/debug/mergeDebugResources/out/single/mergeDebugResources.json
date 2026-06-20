@@ -208,8 +208,8 @@
         "source": "C:\\Users\\Usuario\\.gradle\\daemon\\8.9\\com.conectarsalud.app-main-66:\\drawable\\ic_logo.xml"
     },
     {
-        "merged": "com.conectarsalud.app-debug-64:/layout_fragment_home.xml.flat",
-        "source": "com.conectarsalud.app-main-66:/layout/fragment_home.xml"
+        "merged": "com.conectarsalud.app-debug-64:/layout_fragment_login.xml.flat",
+        "source": "com.conectarsalud.app-main-66:/layout/fragment_login.xml"
     },
     {
         "merged": "C:\\Users\\Usuario\\.gradle\\daemon\\8.9\\com.conectarsalud.app-debug-64:\\drawable_bg_button_white.xml.flat",

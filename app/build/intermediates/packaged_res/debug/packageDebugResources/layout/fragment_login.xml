@@ -98,10 +98,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="52dp"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/bg_button_white"
+                android:background="@drawable/bg_button_primary"
                 android:stateListAnimator="@null"
                 android:text="@string/sign_in"
-                android:textColor="@color/purple_primary"
+                android:textColor="@color/white"
                 android:textSize="15sp"
                 android:textStyle="bold" />
 
