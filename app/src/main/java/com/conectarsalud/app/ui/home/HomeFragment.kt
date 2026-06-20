@@ -58,6 +58,13 @@ class HomeFragment : Fragment() {
             )?.selectedItemId = R.id.misTurnosFragment
         }
 
+        // "Ver detalles" del próximo turno
+        binding.tvVerDetalles.setOnClickListener {
+            requireActivity().findViewById<com.google.android.material.bottomnavigation.BottomNavigationView>(
+                R.id.bottom_navigation
+            )?.selectedItemId = R.id.misTurnosFragment
+        }
+
         // Botón de cerrar sesión
         binding.ivLogout.setOnClickListener {
             showLogoutDialog()

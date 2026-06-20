@@ -200,6 +200,7 @@
                         android:layout_width="52dp"
                         android:layout_height="52dp"
                         android:src="@drawable/ic_location"
+                        android:tint="@color/white"
                         android:padding="12dp"
                         android:background="@drawable/bg_turno_card_purple"
                         android:contentDescription="Centros cercanos" />
@@ -252,6 +253,7 @@
                         android:layout_width="52dp"
                         android:layout_height="52dp"
                         android:src="@drawable/ic_appointments"
+                        android:tint="@color/white"
                         android:padding="12dp"
                         android:background="@drawable/bg_turno_card_purple"
                         android:contentDescription="Mis Turnos" />
